@@ -1,4 +1,4 @@
-package com.minjib.test.domain;
+package com.minjib.restApi.domain;
 
 import lombok.Builder;
 import lombok.Getter;

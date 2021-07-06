@@ -1,19 +1,18 @@
 package com.minjib.test.service;
 
-import com.minjib.test.domain.Movie;
-import com.minjib.test.domain.MovieRepository;
+import com.minjib.restApi.domain.Movie;
+import com.minjib.restApi.domain.MovieRepository;
+import com.minjib.restApi.service.MovieService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Arrays;
 import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.BDDMockito.given;

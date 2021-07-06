@@ -1,18 +1,14 @@
-package com.minjib.test.service.dto;
+package com.minjib.restApi.service.dto;
 
-import com.minjib.test.domain.Movie;
-import com.minjib.test.domain.MovieRepository;
-import com.minjib.test.service.dto.NaverProperties;
-import com.minjib.test.service.dto.ResponseMovie;
-import com.minjib.test.service.exception.authogonizeFail;
+import com.minjib.restApi.domain.Movie;
+import com.minjib.restApi.domain.MovieRepository;
+import com.minjib.restApi.service.exception.authogonizeFail;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
-import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 

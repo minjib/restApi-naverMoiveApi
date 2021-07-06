@@ -1,4 +1,4 @@
-package com.minjib.test.service.dto;
+package com.minjib.restApi.service.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

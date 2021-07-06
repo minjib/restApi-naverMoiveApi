@@ -1,4 +1,4 @@
-package com.minjib.test.support.config;
+package com.minjib.restApi.support.config;
 
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;

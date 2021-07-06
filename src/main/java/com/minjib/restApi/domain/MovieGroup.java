@@ -1,4 +1,4 @@
-package com.minjib.test.domain;
+package com.minjib.restApi.domain;
 
 import java.util.List;
 import java.util.stream.Collectors;

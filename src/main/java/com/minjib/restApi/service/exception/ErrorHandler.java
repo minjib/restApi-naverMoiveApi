@@ -1,4 +1,4 @@
-package com.minjib.test.service.exception;
+package com.minjib.restApi.service.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;

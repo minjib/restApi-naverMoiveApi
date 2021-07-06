@@ -1,8 +1,8 @@
-package com.minjib.test.service;
+package com.minjib.restApi.service;
 
-import com.minjib.test.domain.Movie;
-import com.minjib.test.domain.MovieGroup;
-import com.minjib.test.domain.MovieRepository;
+import com.minjib.restApi.domain.Movie;
+import com.minjib.restApi.domain.MovieGroup;
+import com.minjib.restApi.domain.MovieRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

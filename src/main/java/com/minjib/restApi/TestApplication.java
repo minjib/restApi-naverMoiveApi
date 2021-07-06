@@ -1,4 +1,4 @@
-package com.minjib.test;
+package com.minjib.restApi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

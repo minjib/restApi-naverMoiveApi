@@ -1,7 +1,7 @@
-package com.minjib.test.controller;
+package com.minjib.restApi.controller;
 
-import com.minjib.test.domain.Movie;
-import com.minjib.test.service.MovieService;
+import com.minjib.restApi.domain.Movie;
+import com.minjib.restApi.service.MovieService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
