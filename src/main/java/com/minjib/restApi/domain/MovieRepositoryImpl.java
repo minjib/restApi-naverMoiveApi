@@ -1,8 +1,10 @@
-package com.minjib.restApi.service.dto;
+package com.minjib.restApi.domain;
 
 import com.minjib.restApi.domain.Movie;
 import com.minjib.restApi.domain.MovieRepository;
-import com.minjib.restApi.service.exception.authogonizeFail;
+import com.minjib.restApi.service.dto.MovieResponseDto;
+import com.minjib.restApi.service.dto.NaverProperties;
+import com.minjib.restApi.service.exception.AuthenticationFailException;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -31,7 +33,7 @@ public class MovieRepositoryImpl implements MovieRepository {
         String url = naverProperties.getMovieUrl() + "?query=" + query;
 
         try {
-            return restTemplate.exchange(url, HttpMethod.GET, new HttpEntity(httpHeaders), ResponseMovie.class)
+            return restTemplate.exchange(url, HttpMethod.GET, new HttpEntity(httpHeaders), MovieResponseDto.class)
                     .getBody()
                     .getItems()
                     .stream()
@@ -47,7 +49,7 @@ public class MovieRepositoryImpl implements MovieRepository {
                             .build())
                     .collect(Collectors.toList());
         } catch (RuntimeException e) {
-            throw new authogonizeFail();
+            throw new AuthenticationFailException();
         }
     }
 }
