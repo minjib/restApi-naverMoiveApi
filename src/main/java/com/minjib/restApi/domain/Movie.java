@@ -4,6 +4,7 @@ import lombok.Builder;
 import lombok.Getter;
 
 import java.io.Serializable;
+import java.util.Date;
 
 @Builder
 @Getter
@@ -13,7 +14,7 @@ public class Movie implements Serializable {
     private String link;
     private String image;
     private String subtitle;
-    private int pubDate;
+    private Date pubDate;
     private String director;
     private String actor;
     private float userRating;

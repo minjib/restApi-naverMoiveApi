@@ -1,6 +1,7 @@
 package com.minjib.restApi.domain;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class MovieGroup {
@@ -20,5 +21,9 @@ public class MovieGroup {
                 .filter(b -> !((Float)b.getUserRating()).equals(0.0f))
                 .sorted((a, b) -> b.getUserRating() > a.getUserRating() ? 1 : -1)
                 .collect(Collectors.toList());
+    }
+
+    public Optional<Movie> getHighRatingMovie() {
+        return getListOrderRating().stream().findFirst();
     }
 }

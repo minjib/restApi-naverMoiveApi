@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
 import java.util.List;
 
 @Getter
@@ -23,7 +24,7 @@ public class MovieResponseDto {
         private String link;
         private String image;
         private String subtitle;
-        private int pubDate;
+        private Date pubDate;
         private String actor;
         private String director;
         private float userRating;
