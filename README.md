@@ -21,14 +21,15 @@
       "director":"피터 잭슨|",   
       "actor":"일라이저 우드|숀 애스틴|앤디 서키스|이안 맥켈런|리브 타일러|비고 모텐슨|올랜도 블룸|존 라이스 데이비스|빌리 보이드|도미닉 모나한|버나드 힐|미란다 오토|",   
       "userRating":9.38   
-   },   
+   }
  ...
    {  "id":null,
       "title":"<b>반지의 제왕</b>",
       "link":"https://movie.naver.com/movie/bi/mi/basic.nhn?code=98144",
       "image":"https://ssl.pstatic.net/imgmovie/mdi/mit110/0981/98144_P01_150352.jpg",
       "subtitle":"","pubDate":"1970-01-01T00:00:02.012+0000","director":"",
-      "actor":"이휘재|김신영|","userRating":5.83
+      "actor":"이휘재|김신영|",
+      "userRating":5.83
    }
 ]
 ```
